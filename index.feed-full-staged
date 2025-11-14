@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>The True Power Conference in Volleyball</title>
+<link>https://your-website-url.example.com/</link>
+<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>a place to see who is the power conference in volleyball</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Tue, 04 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/posts/conference-national-championships/index.html}</title>
+  <dc:creator>Lindsay McMullen</dc:creator>
+  <link>https://your-website-url.example.com/posts/conference-national-championships/</link>
+  <description>{B4F502887207:/posts/conference-national-championships/index.html}</description>
+  <category>women&#39;s volleyball</category>
+  <category>ncaa conferences</category>
+  <guid>https://your-website-url.example.com/posts/conference-national-championships/</guid>
+  <pubDate>Tue, 04 Nov 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/conference-national-championships/image.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>
