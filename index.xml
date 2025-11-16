@@ -258,12 +258,12 @@ font-style: inherit;">plot_annotation</span>( </span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"What Conferene has the best hitting percentage and opponent percentage over the past 5 years?"</span>,</span>
+font-style: inherit;">"What Conferene has the best hitting percentage and opponent percentage?"</span>,</span>
 <span id="cb1-42">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"These charts share the conference average hitting percentage and opponent hitting percentage"</span>,</span>
+font-style: inherit;">"The conference average hitting percentage and opponent hitting percentage over the past 5 years."</span>,</span>
 <span id="cb1-43">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
@@ -283,7 +283,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">16</span>, <span class="at" style="color: #657422;
+font-style: inherit;">15</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -449,7 +449,7 @@ font-style: inherit;">"Power 5 Conference realignment over the past 5 years"</sp
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"The power 5 has seen a shift in conference alignment and removal over the past 5 years"</span>, </span>
+font-style: inherit;">"The power 5 has seen a shift in conference alignment and removal of the Pac-12 "</span>, </span>
 <span id="cb2-18">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y=</span> <span class="st" style="color: #20794D;
@@ -488,7 +488,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">20</span>, <span class="at" style="color: #657422;
+font-style: inherit;">15</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -567,7 +567,11 @@ font-style: inherit;">x=</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">reorder</span>(Conference, Total), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">weight=</span> Total)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">weight=</span> Total) , <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
 <span id="cb3-8">  <span class="fu" style="color: #4758AB;
@@ -640,7 +644,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">20</span>, <span class="at" style="color: #657422;
+font-style: inherit;">15</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -774,7 +778,7 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"National Championship viewership rises and falls across recent title games"</span>, </span>
+font-style: inherit;">"National Championship viewership rises and falls over the years"</span>, </span>
 <span id="cb4-20">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
@@ -818,7 +822,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">20</span>, <span class="at" style="color: #657422;
+font-style: inherit;">15</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -853,32 +857,10 @@ background-color: null;
 font-style: inherit;">"plot"</span></span>
 <span id="cb4-32">  )</span></code></pre></div></div>
 </details>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA
-Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
-returning NA</code></pre>
-</div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/index_files/figure-html/warning+FALSE-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
