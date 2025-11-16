@@ -21,7 +21,8 @@
 
 
 
-<p>The Big Ten historically has been known as the power conference of women’s volleyball, lately that has become more of a conversation. No.&nbsp;3 Texas became a new edition to the SEC alongside the No.&nbsp;2 Kentucky, spectators think SEC deserves the title. What people don’t realize is the Pac-12 should’ve been considered the power conference with the most national championships. The conversation has included the Big 10, SEC and ACC teams with their most recent dominate seasons over the past 5 years.</p>
+<p>The Big Ten historically has been known as the power conference of women’s volleyball, lately that has become more of a conversation. No.&nbsp;3 Texas became a new edition to the SEC alongside the No.&nbsp;2 Kentucky, spectators think the SEC deserves the title. What people don’t realize is the Pac-12 should’ve been considered the power conference with the most national championships. The conversation has included the Big 10, SEC and ACC teams with their most recent dominate seasons over the past 5 years.</p>
+<p>So who is actually the power conference?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -320,7 +321,7 @@ font-style: inherit;">element_blank</span>()</span>
 </div>
 </div>
 </div>
-<p>The main statistics that viewers and announcers look at when it comes to determining a conference’s dominance is hitting percentage and opponent hitting percentage. The ACC has had the highest hitting percentage with teams like Pitt, Louisville and new edition Stanford leading the conference. The Big 12 over the past years has had the best opponent hitting percentage, the lower the number the better.</p>
+<p>The main statistics that viewers and announcers look at when it comes to determining a conference’s dominance is hitting percentage and opponent hitting percentage. The ACC has had the highest hitting percentage with teams like Pitt, Louisville and new addition Stanford leading the conference. The Big 12 over the past years has had the best opponent hitting percentage, the lower the number the better.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -687,102 +688,129 @@ font-style: inherit;">"plot"</span></span>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">Big10 <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> views <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">filter</span>(Conference <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Big 10"</span>)</span>
-<span id="cb4-2"></span>
-<span id="cb4-3"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb4-4">  <span class="fu" style="color: #4758AB;
+<span id="cb4-2">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
+font-style: inherit;">geom_bar</span>(</span>
+<span id="cb4-3">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">data=</span>views, <span class="fu" style="color: #4758AB;
+font-style: inherit;">data =</span> views,</span>
+<span id="cb4-4">    <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+font-style: inherit;">aes</span>(</span>
+<span id="cb4-5">      <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">x=</span>Season, <span class="at" style="color: #657422;
+font-style: inherit;">x =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">y=</span>Viewership), <span class="at" style="color: #657422;
+font-style: inherit;">reorder</span>(Season, Conference),</span>
+<span id="cb4-6">      <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">color=</span><span class="st" style="color: #20794D;
+font-style: inherit;">weight =</span> Viewership,</span>
+<span id="cb4-7">      <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"red"</span>) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> </span>
-<span id="cb4-5">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">data=</span>Big10, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">x=</span>Season, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">y=</span>Viewership), <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"#0088CE"</span>) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">fill =</span> Conference</span>
+<span id="cb4-8">    ),</span>
+<span id="cb4-9">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-6"> </span>
-<span id="cb4-7">  <span class="fu" style="color: #4758AB;
+<span id="cb4-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(</span>
+<span id="cb4-11">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Big 10"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#0088CE"</span>,</span>
+<span id="cb4-12">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"SEC"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#FBCE28"</span>,</span>
+<span id="cb4-13">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Pac-12"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#092346"</span>,</span>
+<span id="cb4-14">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Big 12"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#C41230"</span>,</span>
+<span id="cb4-15">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ACC"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#013CA6"</span></span>
+<span id="cb4-16">  )) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">coord_flip</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb4-18"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb4-8">    <span class="at" style="color: #657422;
+<span id="cb4-19">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"National Championship viewer increase in National Championship Games"</span>, </span>
-<span id="cb4-9">    <span class="at" style="color: #657422;
+font-style: inherit;">"National Championship viewership rises and falls across recent title games"</span>, </span>
+<span id="cb4-20">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"There has been a spike in vieweership when a Big 10 team is present in the national championship"</span>, </span>
-<span id="cb4-10">    <span class="at" style="color: #657422;
+font-style: inherit;">"There has been an increase in viewership when over the past years in national championship games"</span>, </span>
+<span id="cb4-21">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Viewers (Millions)"</span>, </span>
-<span id="cb4-11">    <span class="at" style="color: #657422;
+<span id="cb4-22">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Season"</span>,</span>
-<span id="cb4-12">    <span class="at" style="color: #657422;
+<span id="cb4-23">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Source: NCAA | By Lindsay McMullen"</span>, </span>
-<span id="cb4-13">    <span class="at" style="color: #657422;
+<span id="cb4-24">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Conference"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-14">  <span class="fu" style="color: #4758AB;
+<span id="cb4-25">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_minimal</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-15">  <span class="fu" style="color: #4758AB;
+<span id="cb4-26">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(</span>
-<span id="cb4-16">    <span class="at" style="color: #657422;
+<span id="cb4-27">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -795,7 +823,7 @@ background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"bold"</span>),</span>
-<span id="cb4-17">    <span class="at" style="color: #657422;
+<span id="cb4-28">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">axis.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -804,7 +832,7 @@ background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">8</span>), </span>
-<span id="cb4-18">    <span class="at" style="color: #657422;
+<span id="cb4-29">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.subtitle =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -813,26 +841,50 @@ background-color: null;
 font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>), </span>
-<span id="cb4-19">    <span class="at" style="color: #657422;
+<span id="cb4-30">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">panel.grid.minor =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">element_blank</span>(),</span>
-<span id="cb4-20">    <span class="at" style="color: #657422;
+<span id="cb4-31">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title.position =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"plot"</span></span>
-<span id="cb4-21">  )</span></code></pre></div></div>
+<span id="cb4-32">  )</span></code></pre></div></div>
 </details>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA
+Warning in mean.default(X[[i]], ...): argument is not numeric or logical:
+returning NA</code></pre>
+</div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/index_files/figure-html/warning+FALSE-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<p>Volleyball has seen an increase of on air coverage. National Championships are now being viewed by millions of people. The highest viewed national championship was Nebraska vs Texas in 2023, with Texas winning. The lowest viewed national championship over the past 10 year was 2019: Stanford vs Wisconsin, with Stanford winning. There was a drop in viewership last year with Penn State and Louisville match, even though it was a historical game with the first ever female coach winning.</p>
+<p>Will this years national championship break increase or stay the same?</p>
 
 
 
@@ -843,7 +895,7 @@ font-style: inherit;">"plot"</span></span>
   <category>viewership</category>
   <guid>https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/</guid>
   <pubDate>Mon, 17 Nov 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/image.png" medium="image" type="image/png" height="103" width="144"/>
+  <media:content url="https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/image.png" medium="image" type="image/png" height="83" width="144"/>
 </item>
 </channel>
 </rss>
