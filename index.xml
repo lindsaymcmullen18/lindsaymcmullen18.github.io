@@ -21,7 +21,7 @@
 
 
 
-<p>The Big Ten historically has been known as the power conference of women’s volleyball, but lately that has become more of a conversation. With No.&nbsp;3 Texas joining the SEC along with No.&nbsp;2 Kentucky, spectators think SEC deserves the title. What people don’t realize is the Pac-12 should’ve been considered the power conference with the most national championships.</p>
+<p>The Big Ten historically has been known as the power conference of women’s volleyball, lately that has become more of a conversation. No.&nbsp;3 Texas became a new edition to the SEC alongside the No.&nbsp;2 Kentucky, spectators think SEC deserves the title. What people don’t realize is the Pac-12 should’ve been considered the power conference with the most national championships. The conversation has included the Big 10, SEC and ACC teams with their most recent dominate seasons over the past 5 years.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -82,7 +82,7 @@ background-color: null;
 font-style: inherit;">mean</span>(hit_pct)</span>
 <span id="cb1-14">  ) </span>
 <span id="cb1-15"></span>
-<span id="cb1-16">big10 <span class="ot" style="color: #003B4F;
+<span id="cb1-16">big12 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> pc <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -92,7 +92,7 @@ font-style: inherit;">filter</span>(conference <span class="sc" style="color: #5
 background-color: null;
 font-style: inherit;">==</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Big Ten"</span>)</span>
+font-style: inherit;">"Big 12"</span>)</span>
 <span id="cb1-17">acc <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> pc <span class="sc" style="color: #5E5E5E;
@@ -205,7 +205,7 @@ font-style: inherit;">+</span> </span>
 background-color: null;
 font-style: inherit;">geom_bar</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">data=</span>big10, <span class="fu" style="color: #4758AB;
+font-style: inherit;">data=</span>big12, <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -217,7 +217,7 @@ font-style: inherit;">weight=</span>opponent_hit_pct), <span class="at" style="c
 background-color: null;
 font-style: inherit;">fill=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#0088CE"</span>) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"#C41230"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb1-32">  <span class="fu" style="color: #4758AB;
@@ -257,7 +257,7 @@ font-style: inherit;">plot_annotation</span>( </span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"What Conferene has the best hitting percentage and holding opponent percentage over the past 5 years?"</span>,</span>
+font-style: inherit;">"What Conferene has the best hitting percentage and opponent percentage over the past 5 years?"</span>,</span>
 <span id="cb1-42">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
@@ -320,7 +320,7 @@ font-style: inherit;">element_blank</span>()</span>
 </div>
 </div>
 </div>
-<p>The main</p>
+<p>The main statistics that viewers and announcers look at when it comes to determining a conference’s dominance is hitting percentage and opponent hitting percentage. The ACC has had the highest hitting percentage with teams like Pitt, Louisville and new edition Stanford leading the conference. The Big 12 over the past years has had the best opponent hitting percentage, the lower the number the better.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -530,8 +530,7 @@ font-style: inherit;">"plot"</span></span>
 </div>
 </div>
 </div>
-<p>Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words.</p>
-<p>Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words.</p>
+<p>During the past 5 years, there has been new additions and removals of the Power 5 now Power 4 conferences. The Pac-12 historically was a power volleyball conference with Stanford, UCLA, USC, Oregon and Washington but now they are divided. The Big 10 added 4 new teams that are strong teams usually in the 25. The SEC has added Oklahoma and Texas, and Texas is a powerful volleyball team that has grown the competition in the SEC. The Big 12 got new additions with Colorado being in the top 25 this year.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -683,7 +682,8 @@ font-style: inherit;">"plot"</span></span>
 </div>
 </div>
 </div>
-<p>Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words. Words words words words words.</p>
+<p>The ACC has had teams in the national championship and final four every year, but they have yet to win a title. The Pac-12 leads the national title race with 17 and Stanford leading the conference. The Big 12 is 2nd or currently leads the national championship race with 15. The Big 10 has 13 national titles.</p>
+<p>What conference will win the next one?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -840,6 +840,7 @@ font-style: inherit;">"plot"</span></span>
   <category>women&#39;s volleyball</category>
   <category>ncaa conferences</category>
   <category>national championships</category>
+  <category>viewership</category>
   <guid>https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/</guid>
   <pubDate>Mon, 17 Nov 2025 06:00:00 GMT</pubDate>
   <media:content url="https://your-website-url.example.com/posts/who-is-the-true-volleyball-conference/image.png" medium="image" type="image/png" height="103" width="144"/>
