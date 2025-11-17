@@ -444,12 +444,12 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Power 5 Conference realignment over the past 5 years"</span>, </span>
+font-style: inherit;">"Power 5 realignment shifts everything"</span>, </span>
 <span id="cb2-17">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"The power 5 has seen a shift in conference alignment and removal of the Pac-12 "</span>, </span>
+font-style: inherit;">"The power 5 has seen a shift in conference alignment and removal of the Pac-12. "</span>, </span>
 <span id="cb2-18">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y=</span> <span class="st" style="color: #20794D;
@@ -488,7 +488,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">15</span>, <span class="at" style="color: #657422;
+font-style: inherit;">18</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -600,7 +600,7 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"What Conference has the most National Championships? "</span>, </span>
+font-style: inherit;">"Tracking which conference claims the most National Titles "</span>, </span>
 <span id="cb3-11">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
@@ -644,7 +644,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">15</span>, <span class="at" style="color: #657422;
+font-style: inherit;">18</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
