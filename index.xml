@@ -258,7 +258,7 @@ font-style: inherit;">plot_annotation</span>( </span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"What Conferene has the best hitting percentage and opponent percentage?"</span>,</span>
+font-style: inherit;">"Which conference leads in hitting and opponent percentage?"</span>,</span>
 <span id="cb1-42">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
