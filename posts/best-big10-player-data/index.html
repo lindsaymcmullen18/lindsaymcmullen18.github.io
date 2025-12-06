@@ -9,7 +9,7 @@
 <meta name="author" content="Lindsay McMullen">
 <meta name="dcterms.date" content="2025-12-09">
 
-<title>Who is the true College Volleyball Power Conference? – The True Power Conference in Volleyball</title>
+<title>Big 10 Player Statistics – The True Power Conference in Volleyball</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -154,7 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Who is the true College Volleyball Power Conference?</h1>
+      <h1 class="title">Big 10 Player Statistics</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">women's volleyball</div>
                 <div class="quarto-category">Big Ten</div>
@@ -197,59 +197,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   4.0.0     ✔ tibble    3.3.0
-✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-✔ purrr     1.1.0     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-<details class="code-fold">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggbump)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(wehoop)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>big10 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Big10Players.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>Rows: 84 Columns: 18
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr  (2): Name, Team
-dbl (16): Rank, GP, Sets, Kills, Kill/S, PCT, A, A/S, BLK, BLK/S, Dig, Dig/S...
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
-</div>
-<details class="code-fold">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>player <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"playeroftheyear.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>Rows: 5 Columns: 3
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr (2): Name, Team
-dbl (1): Year
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
-</div>
-<details class="code-fold">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(big10)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggbump)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(wehoop)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>big10 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Big10players.csv"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>player <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"playeroftheyear.csv"</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(big10)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 18
-   Rank Name    Team     GP  Sets Kills `Kill/S`   PCT     A `A/S`   BLK `BLK/S`
+   Rank Player  Team     GP  Sets Kills `Kill/S`   PCT     A `A/S`   BLK `BLK/S`
   &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;
 1     1 Eva Hu… Purd…    32   122   515     4.22 0.239    10  0.08    61    0.5 
 2     2 Temi T… Nort…    32   116   502     4.33 0.252    17  0.15    59    0.51
@@ -262,40 +222,39 @@ dbl (1): Year
 </div>
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(player)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(player)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 3
-  Name             Team       Year
-  &lt;chr&gt;            &lt;chr&gt;     &lt;dbl&gt;
-1 Bergen Reilly    Nebraska   2025
-2 Sarah Franklin   Wisconsin  2024
-3 Sarah Franklin   Wisconsin  2023
-4 Taylor Landfiar  Minnesota  2022
-5 Stephanie Samedy Minnesota  2021</code></pre>
+<pre><code># A tibble: 4 × 10
+  Name            Position       Team   Year  Sets   KPS   PCT   APS BLKPS   DPS
+  &lt;chr&gt;           &lt;chr&gt;          &lt;chr&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1 Bergen Reilly   Setter         Nebr…  2025    91  0.71 0.4   10.3   0.65  2.73
+2 Sarah Franklin  Outside Hitter Wisc…  2024   120  4.46 0.289  0.32  0.49  2.28
+3 Sarah Franklin  Outside Hitter Wisc…  2023   117  4.15 0.3    0.13  0.53  1.93
+4 Taylor Landfair Outside Hitter Minn…  2022   110  4.35 0.257  0.25  0.65  1.63</code></pre>
 </div>
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>player <span class="sc">|&gt;</span> <span class="fu">gt</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>player <span class="sc">|&gt;</span> <span class="fu">gt</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div id="ujmsrglaap" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ujmsrglaap table {
+<div id="eldiuqjwzu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#eldiuqjwzu table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ujmsrglaap thead, #ujmsrglaap tbody, #ujmsrglaap tfoot, #ujmsrglaap tr, #ujmsrglaap td, #ujmsrglaap th {
+#eldiuqjwzu thead, #eldiuqjwzu tbody, #eldiuqjwzu tfoot, #eldiuqjwzu tr, #eldiuqjwzu td, #eldiuqjwzu th {
   border-style: none;
 }
 
-#ujmsrglaap p {
+#eldiuqjwzu p {
   margin: 0;
   padding: 0;
 }
 
-#ujmsrglaap .gt_table {
+#eldiuqjwzu .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -321,12 +280,12 @@ dbl (1): Year
   border-left-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_caption {
+#eldiuqjwzu .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ujmsrglaap .gt_title {
+#eldiuqjwzu .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -338,7 +297,7 @@ dbl (1): Year
   border-bottom-width: 0;
 }
 
-#ujmsrglaap .gt_subtitle {
+#eldiuqjwzu .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -350,7 +309,7 @@ dbl (1): Year
   border-top-width: 0;
 }
 
-#ujmsrglaap .gt_heading {
+#eldiuqjwzu .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -362,13 +321,13 @@ dbl (1): Year
   border-right-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_bottom_border {
+#eldiuqjwzu .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_col_headings {
+#eldiuqjwzu .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -383,7 +342,7 @@ dbl (1): Year
   border-right-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_col_heading {
+#eldiuqjwzu .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -403,7 +362,7 @@ dbl (1): Year
   overflow-x: hidden;
 }
 
-#ujmsrglaap .gt_column_spanner_outer {
+#eldiuqjwzu .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -415,15 +374,15 @@ dbl (1): Year
   padding-right: 4px;
 }
 
-#ujmsrglaap .gt_column_spanner_outer:first-child {
+#eldiuqjwzu .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ujmsrglaap .gt_column_spanner_outer:last-child {
+#eldiuqjwzu .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ujmsrglaap .gt_column_spanner {
+#eldiuqjwzu .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -435,11 +394,11 @@ dbl (1): Year
   width: 100%;
 }
 
-#ujmsrglaap .gt_spanner_row {
+#eldiuqjwzu .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ujmsrglaap .gt_group_heading {
+#eldiuqjwzu .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -465,7 +424,7 @@ dbl (1): Year
   text-align: left;
 }
 
-#ujmsrglaap .gt_empty_group_heading {
+#eldiuqjwzu .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -480,15 +439,15 @@ dbl (1): Year
   vertical-align: middle;
 }
 
-#ujmsrglaap .gt_from_md > :first-child {
+#eldiuqjwzu .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ujmsrglaap .gt_from_md > :last-child {
+#eldiuqjwzu .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ujmsrglaap .gt_row {
+#eldiuqjwzu .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -507,7 +466,7 @@ dbl (1): Year
   overflow-x: hidden;
 }
 
-#ujmsrglaap .gt_stub {
+#eldiuqjwzu .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -520,7 +479,7 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#ujmsrglaap .gt_stub_row_group {
+#eldiuqjwzu .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -534,15 +493,15 @@ dbl (1): Year
   vertical-align: top;
 }
 
-#ujmsrglaap .gt_row_group_first td {
+#eldiuqjwzu .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ujmsrglaap .gt_row_group_first th {
+#eldiuqjwzu .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ujmsrglaap .gt_summary_row {
+#eldiuqjwzu .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -552,16 +511,16 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#ujmsrglaap .gt_first_summary_row {
+#eldiuqjwzu .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_first_summary_row.thick {
+#eldiuqjwzu .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ujmsrglaap .gt_last_summary_row {
+#eldiuqjwzu .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -571,7 +530,7 @@ dbl (1): Year
   border-bottom-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_grand_summary_row {
+#eldiuqjwzu .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -581,7 +540,7 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#ujmsrglaap .gt_first_grand_summary_row {
+#eldiuqjwzu .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -591,7 +550,7 @@ dbl (1): Year
   border-top-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_last_grand_summary_row_top {
+#eldiuqjwzu .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -601,11 +560,11 @@ dbl (1): Year
   border-bottom-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_striped {
+#eldiuqjwzu .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ujmsrglaap .gt_table_body {
+#eldiuqjwzu .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -614,7 +573,7 @@ dbl (1): Year
   border-bottom-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_footnotes {
+#eldiuqjwzu .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -628,7 +587,7 @@ dbl (1): Year
   border-right-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_footnote {
+#eldiuqjwzu .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -637,7 +596,7 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#ujmsrglaap .gt_sourcenotes {
+#eldiuqjwzu .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -651,7 +610,7 @@ dbl (1): Year
   border-right-color: #D3D3D3;
 }
 
-#ujmsrglaap .gt_sourcenote {
+#eldiuqjwzu .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -659,72 +618,72 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#ujmsrglaap .gt_left {
+#eldiuqjwzu .gt_left {
   text-align: left;
 }
 
-#ujmsrglaap .gt_center {
+#eldiuqjwzu .gt_center {
   text-align: center;
 }
 
-#ujmsrglaap .gt_right {
+#eldiuqjwzu .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ujmsrglaap .gt_font_normal {
+#eldiuqjwzu .gt_font_normal {
   font-weight: normal;
 }
 
-#ujmsrglaap .gt_font_bold {
+#eldiuqjwzu .gt_font_bold {
   font-weight: bold;
 }
 
-#ujmsrglaap .gt_font_italic {
+#eldiuqjwzu .gt_font_italic {
   font-style: italic;
 }
 
-#ujmsrglaap .gt_super {
+#eldiuqjwzu .gt_super {
   font-size: 65%;
 }
 
-#ujmsrglaap .gt_footnote_marks {
+#eldiuqjwzu .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ujmsrglaap .gt_asterisk {
+#eldiuqjwzu .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ujmsrglaap .gt_indent_1 {
+#eldiuqjwzu .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ujmsrglaap .gt_indent_2 {
+#eldiuqjwzu .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ujmsrglaap .gt_indent_3 {
+#eldiuqjwzu .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ujmsrglaap .gt_indent_4 {
+#eldiuqjwzu .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ujmsrglaap .gt_indent_5 {
+#eldiuqjwzu .gt_indent_5 {
   text-indent: 25px;
 }
 
-#ujmsrglaap .katex-display {
+#eldiuqjwzu .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#ujmsrglaap div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#eldiuqjwzu div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -733,35 +692,65 @@ dbl (1): Year
 <thead>
 <tr class="gt_col_headings header">
 <th id="Name" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Name</th>
+<th id="Position" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Position</th>
 <th id="Team" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Team</th>
 <th id="Year" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Year</th>
+<th id="Sets" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Sets</th>
+<th id="KPS" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">KPS</th>
+<th id="PCT" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">PCT</th>
+<th id="APS" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">APS</th>
+<th id="BLKPS" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">BLKPS</th>
+<th id="DPS" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">DPS</th>
 </tr>
 </thead>
 <tbody class="gt_table_body">
 <tr class="odd">
 <td class="gt_row gt_left" headers="Name">Bergen Reilly</td>
+<td class="gt_row gt_left" headers="Position">Setter</td>
 <td class="gt_row gt_left" headers="Team">Nebraska</td>
 <td class="gt_row gt_right" headers="Year">2025</td>
+<td class="gt_row gt_right" headers="Sets">91</td>
+<td class="gt_row gt_right" headers="KPS">0.71</td>
+<td class="gt_row gt_right" headers="PCT">0.400</td>
+<td class="gt_row gt_right" headers="APS">10.31</td>
+<td class="gt_row gt_right" headers="BLKPS">0.65</td>
+<td class="gt_row gt_right" headers="DPS">2.73</td>
 </tr>
 <tr class="even">
 <td class="gt_row gt_left" headers="Name">Sarah Franklin</td>
+<td class="gt_row gt_left" headers="Position">Outside Hitter</td>
 <td class="gt_row gt_left" headers="Team">Wisconsin</td>
 <td class="gt_row gt_right" headers="Year">2024</td>
+<td class="gt_row gt_right" headers="Sets">120</td>
+<td class="gt_row gt_right" headers="KPS">4.46</td>
+<td class="gt_row gt_right" headers="PCT">0.289</td>
+<td class="gt_row gt_right" headers="APS">0.32</td>
+<td class="gt_row gt_right" headers="BLKPS">0.49</td>
+<td class="gt_row gt_right" headers="DPS">2.28</td>
 </tr>
 <tr class="odd">
 <td class="gt_row gt_left" headers="Name">Sarah Franklin</td>
+<td class="gt_row gt_left" headers="Position">Outside Hitter</td>
 <td class="gt_row gt_left" headers="Team">Wisconsin</td>
 <td class="gt_row gt_right" headers="Year">2023</td>
+<td class="gt_row gt_right" headers="Sets">117</td>
+<td class="gt_row gt_right" headers="KPS">4.15</td>
+<td class="gt_row gt_right" headers="PCT">0.300</td>
+<td class="gt_row gt_right" headers="APS">0.13</td>
+<td class="gt_row gt_right" headers="BLKPS">0.53</td>
+<td class="gt_row gt_right" headers="DPS">1.93</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left" headers="Name">Taylor Landfiar</td>
+<td class="gt_row gt_left" headers="Name">Taylor Landfair</td>
+<td class="gt_row gt_left" headers="Position">Outside Hitter</td>
 <td class="gt_row gt_left" headers="Team">Minnesota</td>
 <td class="gt_row gt_right" headers="Year">2022</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="Name">Stephanie Samedy</td>
-<td class="gt_row gt_left" headers="Team">Minnesota</td>
-<td class="gt_row gt_right" headers="Year">2021</td>
+<td class="gt_row gt_right" headers="Sets">110</td>
+<td class="gt_row gt_right" headers="KPS">4.35</td>
+<td class="gt_row gt_right" headers="PCT">0.257</td>
+<td class="gt_row gt_right" headers="APS">0.25</td>
+<td class="gt_row gt_right" headers="BLKPS">0.65</td>
+<td class="gt_row gt_right" headers="DPS">1.63</td>
 </tr>
 </tbody>
 </table>
@@ -770,61 +759,68 @@ dbl (1): Year
 </div>
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>player <span class="sc">|&gt;</span> </span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cols_label</span>(</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">Team =</span> <span class="st">"Team"</span>,</span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">Year =</span> <span class="st">"Year"</span></span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(</span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Big 10 Player of the Year since 2021-2025"</span>,</span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Bergen Reilly wins player of the year in 2025 diversifying the back to back team success"</span></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">|&gt;</span> <span class="fu">tab_style</span>(</span>
-<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"black"</span>, <span class="at">weight =</span> <span class="st">"bold"</span>, <span class="at">align =</span> <span class="st">"left"</span>),</span>
-<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_title</span>(<span class="st">"title"</span>)</span>
-<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> <span class="fu">tab_style</span>(</span>
-<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"black"</span>, <span class="at">align =</span> <span class="st">"left"</span>),</span>
-<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_title</span>(<span class="st">"subtitle"</span>)</span>
-<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_source_note</span>(</span>
-<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">source_note =</span> <span class="fu">md</span>(<span class="st">"**By:** Lindsay McMullen  |  **Source:** Big 10 Women's Volleyball Stats"</span>)</span>
-<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_style</span>(</span>
-<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>     <span class="at">locations =</span> <span class="fu">cells_column_labels</span>(<span class="at">columns =</span> <span class="fu">everything</span>()),</span>
-<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>     <span class="at">style =</span> <span class="fu">list</span>(</span>
-<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>       <span class="fu">cell_borders</span>(<span class="at">sides =</span> <span class="st">"bottom"</span>, <span class="at">weight =</span> <span class="fu">px</span>(<span class="dv">3</span>)),</span>
-<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>       <span class="fu">cell_text</span>(<span class="at">weight =</span> <span class="st">"bold"</span>, <span class="at">size=</span><span class="dv">16</span>)</span>
-<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>     )</span>
-<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>   ) <span class="sc">|&gt;</span></span>
-<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opt_row_striping</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opt_table_lines</span>(<span class="st">"none"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_style</span>(</span>
-<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">list</span>(</span>
-<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_fill</span>(<span class="at">color =</span> <span class="st">"#e41c38"</span>),</span>
-<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"white"</span>)</span>
-<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>      ),</span>
-<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_body</span>(</span>
-<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>      <span class="at">rows =</span> Team <span class="sc">==</span> <span class="st">"Nebraska"</span>)</span>
-<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>player <span class="sc">|&gt;</span> </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cols_label</span>(</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">Team =</span> <span class="st">"Team"</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">Year =</span> <span class="st">"Year"</span>, </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sets =</span> <span class="st">"Sets Played"</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">KPS =</span> <span class="st">"Kills per set"</span> ,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">PCT =</span> <span class="st">"Hitting Percentage"</span> ,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">APS =</span> <span class="st">"Assists per set"</span> , </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">BLKPS   =</span> <span class="st">"Blocks per set"</span>, </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">DPS =</span> <span class="st">"Digs per set"</span> , </span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Big 10 Player of the Year since 2022-2025"</span>,</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Bergen Reilly wins player of the year in 2025 diversifying the back to back team success"</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">|&gt;</span> <span class="fu">tab_style</span>(</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"black"</span>, <span class="at">weight =</span> <span class="st">"bold"</span>, <span class="at">align =</span> <span class="st">"left"</span>),</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_title</span>(<span class="st">"title"</span>)</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> <span class="fu">tab_style</span>(</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"black"</span>, <span class="at">align =</span> <span class="st">"left"</span>),</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_title</span>(<span class="st">"subtitle"</span>)</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_source_note</span>(</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">source_note =</span> <span class="fu">md</span>(<span class="st">"**By:** Lindsay McMullen  |  **Source:** Big 10 Women's Volleyball Stats"</span>)</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_style</span>(</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>     <span class="at">locations =</span> <span class="fu">cells_column_labels</span>(<span class="at">columns =</span> <span class="fu">everything</span>()),</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>     <span class="at">style =</span> <span class="fu">list</span>(</span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>       <span class="fu">cell_borders</span>(<span class="at">sides =</span> <span class="st">"bottom"</span>, <span class="at">weight =</span> <span class="fu">px</span>(<span class="dv">3</span>)),</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>       <span class="fu">cell_text</span>(<span class="at">weight =</span> <span class="st">"bold"</span>, <span class="at">size=</span><span class="dv">16</span>)</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>     )</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>   ) <span class="sc">|&gt;</span></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opt_row_striping</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opt_table_lines</span>(<span class="st">"none"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_style</span>(</span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">list</span>(</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_fill</span>(<span class="at">color =</span> <span class="st">"#e41c38"</span>),</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"white"</span>)</span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>      ),</span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_body</span>(</span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>      <span class="at">rows =</span> Team <span class="sc">==</span> <span class="st">"Nebraska"</span>)</span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div id="adlrskipvd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#adlrskipvd table {
+<div id="xorbgicnrg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#xorbgicnrg table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#adlrskipvd thead, #adlrskipvd tbody, #adlrskipvd tfoot, #adlrskipvd tr, #adlrskipvd td, #adlrskipvd th {
+#xorbgicnrg thead, #xorbgicnrg tbody, #xorbgicnrg tfoot, #xorbgicnrg tr, #xorbgicnrg td, #xorbgicnrg th {
   border-style: none;
 }
 
-#adlrskipvd p {
+#xorbgicnrg p {
   margin: 0;
   padding: 0;
 }
 
-#adlrskipvd .gt_table {
+#xorbgicnrg .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -850,12 +846,12 @@ dbl (1): Year
   border-left-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_caption {
+#xorbgicnrg .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#adlrskipvd .gt_title {
+#xorbgicnrg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -867,7 +863,7 @@ dbl (1): Year
   border-bottom-width: 0;
 }
 
-#adlrskipvd .gt_subtitle {
+#xorbgicnrg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -879,7 +875,7 @@ dbl (1): Year
   border-top-width: 0;
 }
 
-#adlrskipvd .gt_heading {
+#xorbgicnrg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -891,13 +887,13 @@ dbl (1): Year
   border-right-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_bottom_border {
+#xorbgicnrg .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_col_headings {
+#xorbgicnrg .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -912,7 +908,7 @@ dbl (1): Year
   border-right-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_col_heading {
+#xorbgicnrg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -932,7 +928,7 @@ dbl (1): Year
   overflow-x: hidden;
 }
 
-#adlrskipvd .gt_column_spanner_outer {
+#xorbgicnrg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -944,15 +940,15 @@ dbl (1): Year
   padding-right: 4px;
 }
 
-#adlrskipvd .gt_column_spanner_outer:first-child {
+#xorbgicnrg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#adlrskipvd .gt_column_spanner_outer:last-child {
+#xorbgicnrg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#adlrskipvd .gt_column_spanner {
+#xorbgicnrg .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -964,11 +960,11 @@ dbl (1): Year
   width: 100%;
 }
 
-#adlrskipvd .gt_spanner_row {
+#xorbgicnrg .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#adlrskipvd .gt_group_heading {
+#xorbgicnrg .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -994,7 +990,7 @@ dbl (1): Year
   text-align: left;
 }
 
-#adlrskipvd .gt_empty_group_heading {
+#xorbgicnrg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1009,15 +1005,15 @@ dbl (1): Year
   vertical-align: middle;
 }
 
-#adlrskipvd .gt_from_md > :first-child {
+#xorbgicnrg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#adlrskipvd .gt_from_md > :last-child {
+#xorbgicnrg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#adlrskipvd .gt_row {
+#xorbgicnrg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1036,7 +1032,7 @@ dbl (1): Year
   overflow-x: hidden;
 }
 
-#adlrskipvd .gt_stub {
+#xorbgicnrg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1049,7 +1045,7 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#adlrskipvd .gt_stub_row_group {
+#xorbgicnrg .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1063,15 +1059,15 @@ dbl (1): Year
   vertical-align: top;
 }
 
-#adlrskipvd .gt_row_group_first td {
+#xorbgicnrg .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#adlrskipvd .gt_row_group_first th {
+#xorbgicnrg .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#adlrskipvd .gt_summary_row {
+#xorbgicnrg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1081,16 +1077,16 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#adlrskipvd .gt_first_summary_row {
+#xorbgicnrg .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_first_summary_row.thick {
+#xorbgicnrg .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#adlrskipvd .gt_last_summary_row {
+#xorbgicnrg .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1100,7 +1096,7 @@ dbl (1): Year
   border-bottom-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_grand_summary_row {
+#xorbgicnrg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1110,7 +1106,7 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#adlrskipvd .gt_first_grand_summary_row {
+#xorbgicnrg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1120,7 +1116,7 @@ dbl (1): Year
   border-top-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_last_grand_summary_row_top {
+#xorbgicnrg .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1130,11 +1126,11 @@ dbl (1): Year
   border-bottom-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_striped {
+#xorbgicnrg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#adlrskipvd .gt_table_body {
+#xorbgicnrg .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1143,7 +1139,7 @@ dbl (1): Year
   border-bottom-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_footnotes {
+#xorbgicnrg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1157,7 +1153,7 @@ dbl (1): Year
   border-right-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_footnote {
+#xorbgicnrg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1166,7 +1162,7 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#adlrskipvd .gt_sourcenotes {
+#xorbgicnrg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1180,7 +1176,7 @@ dbl (1): Year
   border-right-color: #D3D3D3;
 }
 
-#adlrskipvd .gt_sourcenote {
+#xorbgicnrg .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1188,72 +1184,72 @@ dbl (1): Year
   padding-right: 5px;
 }
 
-#adlrskipvd .gt_left {
+#xorbgicnrg .gt_left {
   text-align: left;
 }
 
-#adlrskipvd .gt_center {
+#xorbgicnrg .gt_center {
   text-align: center;
 }
 
-#adlrskipvd .gt_right {
+#xorbgicnrg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#adlrskipvd .gt_font_normal {
+#xorbgicnrg .gt_font_normal {
   font-weight: normal;
 }
 
-#adlrskipvd .gt_font_bold {
+#xorbgicnrg .gt_font_bold {
   font-weight: bold;
 }
 
-#adlrskipvd .gt_font_italic {
+#xorbgicnrg .gt_font_italic {
   font-style: italic;
 }
 
-#adlrskipvd .gt_super {
+#xorbgicnrg .gt_super {
   font-size: 65%;
 }
 
-#adlrskipvd .gt_footnote_marks {
+#xorbgicnrg .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#adlrskipvd .gt_asterisk {
+#xorbgicnrg .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#adlrskipvd .gt_indent_1 {
+#xorbgicnrg .gt_indent_1 {
   text-indent: 5px;
 }
 
-#adlrskipvd .gt_indent_2 {
+#xorbgicnrg .gt_indent_2 {
   text-indent: 10px;
 }
 
-#adlrskipvd .gt_indent_3 {
+#xorbgicnrg .gt_indent_3 {
   text-indent: 15px;
 }
 
-#adlrskipvd .gt_indent_4 {
+#xorbgicnrg .gt_indent_4 {
   text-indent: 20px;
 }
 
-#adlrskipvd .gt_indent_5 {
+#xorbgicnrg .gt_indent_5 {
   text-indent: 25px;
 }
 
-#adlrskipvd .katex-display {
+#xorbgicnrg .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#adlrskipvd div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#xorbgicnrg div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1261,46 +1257,76 @@ dbl (1): Year
 <table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_heading header">
-<td colspan="3" class="gt_heading gt_title gt_font_normal" style="text-align: left; color: #000000; font-weight: bold;">Big 10 Player of the Year since 2021-2025</td>
+<td colspan="10" class="gt_heading gt_title gt_font_normal" style="text-align: left; color: #000000; font-weight: bold;">Big 10 Player of the Year since 2022-2025</td>
 </tr>
 <tr class="gt_heading even">
-<td colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: left; color: #000000;">Bergen Reilly wins player of the year in 2025 diversifying the back to back team success</td>
+<td colspan="10" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: left; color: #000000;">Bergen Reilly wins player of the year in 2025 diversifying the back to back team success</td>
 </tr>
 <tr class="gt_col_headings header">
 <th id="Name" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Name</th>
+<th id="Position" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Position</th>
 <th id="Team" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Team</th>
 <th id="Year" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Year</th>
+<th id="Sets" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Sets Played</th>
+<th id="KPS" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Kills per set</th>
+<th id="PCT" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Hitting Percentage</th>
+<th id="APS" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Assists per set</th>
+<th id="BLKPS" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Blocks per set</th>
+<th id="DPS" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 16; font-weight: bold" scope="col">Digs per set</th>
 </tr>
 </thead>
 <tbody class="gt_table_body">
 <tr class="odd">
 <td class="gt_row gt_left" headers="Name" style="background-color: #E41C38; color: #FFFFFF">Bergen Reilly</td>
+<td class="gt_row gt_left" headers="Position" style="background-color: #E41C38; color: #FFFFFF">Setter</td>
 <td class="gt_row gt_left" headers="Team" style="background-color: #E41C38; color: #FFFFFF">Nebraska</td>
 <td class="gt_row gt_right" headers="Year" style="background-color: #E41C38; color: #FFFFFF">2025</td>
+<td class="gt_row gt_right" headers="Sets" style="background-color: #E41C38; color: #FFFFFF">91</td>
+<td class="gt_row gt_right" headers="KPS" style="background-color: #E41C38; color: #FFFFFF">0.71</td>
+<td class="gt_row gt_right" headers="PCT" style="background-color: #E41C38; color: #FFFFFF">0.400</td>
+<td class="gt_row gt_right" headers="APS" style="background-color: #E41C38; color: #FFFFFF">10.31</td>
+<td class="gt_row gt_right" headers="BLKPS" style="background-color: #E41C38; color: #FFFFFF">0.65</td>
+<td class="gt_row gt_right" headers="DPS" style="background-color: #E41C38; color: #FFFFFF">2.73</td>
 </tr>
 <tr class="even">
 <td class="gt_row gt_left gt_striped" headers="Name">Sarah Franklin</td>
+<td class="gt_row gt_left gt_striped" headers="Position">Outside Hitter</td>
 <td class="gt_row gt_left gt_striped" headers="Team">Wisconsin</td>
 <td class="gt_row gt_right gt_striped" headers="Year">2024</td>
+<td class="gt_row gt_right gt_striped" headers="Sets">120</td>
+<td class="gt_row gt_right gt_striped" headers="KPS">4.46</td>
+<td class="gt_row gt_right gt_striped" headers="PCT">0.289</td>
+<td class="gt_row gt_right gt_striped" headers="APS">0.32</td>
+<td class="gt_row gt_right gt_striped" headers="BLKPS">0.49</td>
+<td class="gt_row gt_right gt_striped" headers="DPS">2.28</td>
 </tr>
 <tr class="odd">
 <td class="gt_row gt_left" headers="Name">Sarah Franklin</td>
+<td class="gt_row gt_left" headers="Position">Outside Hitter</td>
 <td class="gt_row gt_left" headers="Team">Wisconsin</td>
 <td class="gt_row gt_right" headers="Year">2023</td>
+<td class="gt_row gt_right" headers="Sets">117</td>
+<td class="gt_row gt_right" headers="KPS">4.15</td>
+<td class="gt_row gt_right" headers="PCT">0.300</td>
+<td class="gt_row gt_right" headers="APS">0.13</td>
+<td class="gt_row gt_right" headers="BLKPS">0.53</td>
+<td class="gt_row gt_right" headers="DPS">1.93</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_striped" headers="Name">Taylor Landfiar</td>
+<td class="gt_row gt_left gt_striped" headers="Name">Taylor Landfair</td>
+<td class="gt_row gt_left gt_striped" headers="Position">Outside Hitter</td>
 <td class="gt_row gt_left gt_striped" headers="Team">Minnesota</td>
 <td class="gt_row gt_right gt_striped" headers="Year">2022</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="Name">Stephanie Samedy</td>
-<td class="gt_row gt_left" headers="Team">Minnesota</td>
-<td class="gt_row gt_right" headers="Year">2021</td>
+<td class="gt_row gt_right gt_striped" headers="Sets">110</td>
+<td class="gt_row gt_right gt_striped" headers="KPS">4.35</td>
+<td class="gt_row gt_right gt_striped" headers="PCT">0.257</td>
+<td class="gt_row gt_right gt_striped" headers="APS">0.25</td>
+<td class="gt_row gt_right gt_striped" headers="BLKPS">0.65</td>
+<td class="gt_row gt_right gt_striped" headers="DPS">1.63</td>
 </tr>
 </tbody><tfoot>
 <tr class="gt_sourcenotes odd">
-<td colspan="3" class="gt_sourcenote"><strong>By:</strong> Lindsay McMullen | <strong>Source:</strong> Big 10 Women’s Volleyball Stats</td>
+<td colspan="10" class="gt_sourcenote"><strong>By:</strong> Lindsay McMullen | <strong>Source:</strong> Big 10 Women’s Volleyball Stats</td>
 </tr>
 </tfoot>
 
@@ -1312,28 +1338,27 @@ dbl (1): Year
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggbeeswarm)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggrepel)</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>big10 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Big10Players.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>Rows: 84 Columns: 18
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr  (2): Name, Team
-dbl (16): Rank, GP, Sets, Kills, Kill/S, PCT, A, A/S, BLK, BLK/S, Dig, Dig/S...
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
-</div>
-<details class="code-fold">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_beeswarm</span>(<span class="at">data=</span>big10, <span class="fu">aes</span>(<span class="at">x=</span>Year, <span class="at">y=</span>Kills), <span class="at">color=</span><span class="st">"grey"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggbeeswarm)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggrepel)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>big10 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Big10players.csv"</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>player <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"playeroftheyear.csv"</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>nebraska <span class="ot">&lt;-</span> big10 <span class="sc">|&gt;</span> </span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Team <span class="sc">==</span> <span class="st">"Nebraska"</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_beeswarm</span>(<span class="at">data =</span> big10, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> PCT), <span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_beeswarm</span>(<span class="at">data =</span> nebraska, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> PCT), <span class="at">color =</span> <span class="st">"#e41c38"</span>) <span class="sc">+</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_beeswarm</span>(<span class="at">data =</span> player, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> PCT), <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> player, </span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> PCT, <span class="at">label =</span> Name)</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -1343,6 +1368,43 @@ dbl (16): Rank, GP, Sets, Kills, Kill/S, PCT, A, A/S, BLK, BLK/S, Dig, Dig/S...
 </div>
 </div>
 </div>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggbump)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggrepel) </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>rank <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Big10players.csv"</span>) </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bump</span>(<span class="at">data=</span>rank, <span class="fu">aes</span>(<span class="at">x=</span>Year, <span class="at">y=</span>Rank, <span class="at">color=</span>Player)) <span class="sc">+</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data=</span>rank, <span class="fu">aes</span>(<span class="at">x=</span>Year, <span class="at">y=</span>Rank, <span class="at">color=</span>Player), <span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span> </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="dv">4</span>) <span class="sc">+</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">2022</span>, <span class="dv">2023</span>, <span class="dv">2024</span>, <span class="dv">2025</span>)) <span class="sc">+</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_reverse</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>, <span class="dv">60</span>, <span class="dv">70</span>, <span class="dv">80</span>, <span class="dv">90</span>, <span class="dv">100</span>, <span class="dv">110</span>)) <span class="sc">+</span> </span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> rank <span class="sc">|&gt;</span> <span class="fu">filter</span>(Year <span class="sc">==</span> <span class="fu">min</span>(Year)), <span class="fu">aes</span>(<span class="at">x =</span> Year <span class="sc">-</span> .<span class="dv">5</span>, <span class="at">y=</span>Rank, <span class="at">label =</span> Player), <span class="at">size =</span> <span class="dv">3</span>, <span class="at">hjust =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> rank <span class="sc">|&gt;</span> <span class="fu">filter</span>(Year <span class="sc">==</span> <span class="fu">max</span>(Year)), <span class="fu">aes</span>(<span class="at">x =</span> Year <span class="sc">+</span> .<span class="dv">5</span>, <span class="at">y=</span>Rank, <span class="at">label =</span> Player), <span class="at">size =</span> <span class="dv">3</span>, <span class="at">hjust =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>   <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"lightgrey"</span>, <span class="st">"lightgrey"</span>, <span class="st">"#990000"</span>, <span class="st">"#e41c38"</span>, <span class="st">"lightgrey"</span>,<span class="st">"#e41c38"</span>, <span class="st">"lightgrey"</span>, <span class="st">"lightgrey"</span>, <span class="st">"lightgrey"</span>, <span class="st">"lightgrey"</span>, <span class="st">"#666666"</span>,<span class="st">"#ceb888"</span>,<span class="st">"#e41c38"</span>, <span class="st">"#041E42"</span>,<span class="st">"#7A0019"</span>,<span class="st">"lightgrey"</span>, <span class="st">"lightgrey"</span>, <span class="st">"lightgrey"</span>,<span class="st">"#ceb888"</span>,<span class="st">"#041E42"</span>, <span class="st">"lightgrey"</span>,  <span class="st">"#e41c38"</span>,  <span class="st">"lightgrey"</span>,  <span class="st">"#e41c38"</span>,<span class="st">"#154733"</span>, <span class="st">"#E84A27"</span>,  <span class="st">"#e41c38"</span>,<span class="st">"lightgrey"</span>,<span class="st">"#c5050c"</span>,<span class="st">"lightgrey"</span>, <span class="st">"#7A0019"</span> , <span class="st">"#4E2A84"</span>, <span class="st">"#e41c38"</span>,<span class="st">"#e41c38"</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>   )) <span class="sc">+</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Big 10 Player trends since 2022"</span>, <span class="at">subtitle=</span><span class="st">"The Big 10 has had many powerful players, but how do Nebraska players compare to the top 10."</span>, <span class="at">y=</span> <span class="st">"Rank"</span>, <span class="at">x =</span> <span class="st">"Year"</span>) <span class="sc">+</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"none"</span>,</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_blank</span>()</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>    ) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>```</p>
 
 
 
